@@ -7,7 +7,7 @@
   "type": "flarum-extension",
   "license": "MIT",
   "require": {
-    "flarum/core": "^1.0"
+    "flarum/core": "^0.1.0"
   },
   "authors": [
     {
@@ -32,7 +32,7 @@
       }
     },
     "flagrow": {
-      "discuss": ""
+      "discuss": "https://discuss.flarum.org.cn/d/2648"
     }
   }
 }
