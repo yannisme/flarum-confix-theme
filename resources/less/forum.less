@@ -1,9 +1,4 @@
 @media @desktop-up{
-div.PostStream-item[data-index="1"] article.CommentPost.Post header.Post-header ul:not(ul.PostUser-badges.badges):not(ul.UserCard-badges.badges,ul.UserCard-info)::after{content:"\6c99\53d1"}
-div.PostStream-item[data-index="2"] article.CommentPost.Post header.Post-header ul:not(ul.PostUser-badges.badges):not(ul.UserCard-badges.badges,ul.UserCard-info)::after{content:"\6905\5b50"}
-div.PostStream-item[data-index="3"] article.CommentPost.Post header.Post-header ul:not(ul.PostUser-badges.badges):not(ul.UserCard-badges.badges,ul.UserCard-info)::after{content:"\5730\677f"}
-div.PostStream-item[data-index="1"] article.CommentPost.Post header.Post-header ul:not(ul.PostUser-badges.badges):not(ul.UserCard-badges.badges,ul.UserCard-info)::after,div.PostStream-item[data-index="2"] article.CommentPost.Post header.Post-header ul:not(ul.PostUser-badges.badges):not(ul.UserCard-badges.badges,ul.UserCard-info)::after,div.PostStream-item[data-index="3"] article.CommentPost.Post header.Post-header ul:not(ul.PostUser-badges.badges):not(ul.UserCard-badges.badges,ul.UserCard-info)::after{position:relative;z-index:2;background:@hero-bg;padding:1px 5px 1px 5px;color:@link-color;border-radius:4px;font-size:12px;font-weight:600;float:right}
-div.PostStream-item[data-index="1"] article.CommentPost.Post.Post--by-start-user .Post-body,div.PostStream-item[data-index="2"] article.CommentPost.Post.Post--by-start-user .Post-body,div.PostStream-item[data-index="3"] article.CommentPost.Post.Post--by-start-user .Post-body{clear:both}
 .Hero-close{display:none}
 .sideNavOffset{margin-top:0!important;min-width:0;padding:15px;box-sizing:border-box}
 body{font-family:"PingFang SC","Hiragino Sans GB","Microsoft Yahei",tahoma,arial}
@@ -14,8 +9,8 @@ span.TagLabel-text i{display:none}
 .container{width:auto;padding:0}
 .container{width:auto}
 .DiscussionListItem-count{color:#aaa;min-width:48px;margin-right:-40px;padding:unset}
-.DiscussionListItem-count:before{content:"\56de\590d";margin-right:3px}
-.item-discussion-views:before{content:"\67e5\770b"!important;margin-right:3px!important}
+.DiscussionListItem-count:before{content:"Reply ";margin-right:3px}
+.item-discussion-views:before{content:"View "!important;margin-right:3px!important}
 .DiscussionListItem-badges .Badge{margin:1px;position:relative;top:38px;left:-3px}
 .badges,.badges>li{display:flex;justify-content:center}
 .Badge--sticky{background:0 0}
@@ -27,7 +22,7 @@ span.TagLabel-text i{display:none}
 .sideNav .Dropdown--select .Dropdown-menu>li.active>a{font-weight:700;background:@hero-bg;color:@link-color;border-right:3px solid @config-primary-color}
 .sideNav .Dropdown--select .Dropdown-menu>li>a{padding:8px 0 8px 40px}
 a.TagLinkButton.hasIcon.child{background:0 0!important;border:0!important}
-button.Button.Button--primary.IndexPage-newDiscussion.hasIcon{font-size:1.5em}
+button.Button.Button--primary.IndexPage-newDiscussion.hasIcon{font-size:1.2em}
 .sideNav{flex-shrink:0;margin-right:auto;position:fixed;z-index:2;left:0;top:52px;overflow:auto;width:auto;height:100%;padding-left:10px;background:@body-bg;border-right:1px solid fade(@hero-bg,98.5%)}
 button.Button.Button--primary.IndexPage-newDiscussion.hasIcon{border-radius:0}
 .IndexPage-nav .item-newDiscussion{margin-bottom:5px;margin-left:-10px}
@@ -60,7 +55,7 @@ article.CommentPost.Post--edited.Post.Post--by-actor .badges>li{display:flex;jus
 .DiscussionPage-list .item-discussion-views{display:none!important}
 .item-discussion-views{right:37px;width:79px}
 .DiscussionListItem-content{padding-left:70px}
-.unread .DiscussionListItem-count:before{content:"\65b0\56de\590d"}
+.unread .DiscussionListItem-count:before{content:"New reply"}
 .unread .DiscussionListItem-countQ{color:#ff2828}
 .unread .DiscussionListItem-title:after{content:"New";color:#f8504b;font-size:smaller;margin-left:4px;position:relative}
 footer.site-footer{padding-left:210px}
