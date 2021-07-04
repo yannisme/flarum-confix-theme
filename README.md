@@ -33,10 +33,11 @@ php flarum cache:clear
 - [Packagist](https://packagist.org/packages/yannisme/confixtheme)
 - [Discuss](https://discuss.flarum.org/d/27987-confix-theme)
 - [Discuss-CN](https://discuss.flarum.org.cn/d/2648)
+  
+![FlarumPro (1).png](https://i.loli.net/2021/07/04/Du7tlqnLAVThoaw.png)
+![ConFix 主题 - FlarumPro (1).png](https://i.loli.net/2021/07/04/5xfKZtd9rl1ViQj.png)
+![标签 - FlarumPro (1).png](https://i.loli.net/2021/07/04/thRqoJCsafr3Sgu.png)
+![FlarumPro.png](https://i.loli.net/2021/07/04/7AcmrbCzyGD3kQu.png)
+![ConFix 主题 - FlarumPro.png](https://i.loli.net/2021/07/04/L3bPGXvE5QMUFT8.png)
+![标签 - FlarumPro.png](https://i.loli.net/2021/07/04/phzbkA93rLf52Gg.png)
 
-![FlarumPro.png](https://i.loli.net/2021/07/03/MPqaewWuYHDp6cr.png)
-![ConFix 样式 - FlarumPro.png](https://i.loli.net/2021/07/03/tYP4QseOL2z3uW7.png)
-![标签 - FlarumPro.png](https://i.loli.net/2021/07/03/oWFB4fEOjQxapG5.png)
-![FlarumPro.png](https://i.loli.net/2021/07/03/5PXa8zrgyiTckmx.png)
-![ConFix 样式 - FlarumPro.png](https://i.loli.net/2021/07/03/P8mo6MAN4rOR5s9.png)
-![标签 - FlarumPro.png](https://i.loli.net/2021/07/03/p9JOI7HDX8CTr3k.png)
