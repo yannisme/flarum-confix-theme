@@ -11,6 +11,8 @@ span.TagLabel-text i{display:none}
 .badges,.badges>li{display:flex;justify-content:center}
 .Badge--sticky{background:0 0}
 .Badge{width:auto;height:auto;background:0 0!important;color:unset;-webkit-box-shadow:unset;box-shadow:unset}
+.DiscussionPage .badges,.badges>li{display:inline-block}
+.UserCard.Hero.UserHero{margin-left:-10px}
 .DiscussionListItem-main{min-height:75px;display:inline-grid}
 .sideNav{flex-shrink:0;margin-right:auto}
 .sideNav .Dropdown--select .Dropdown-menu{margin-left:-10px;width:auto}
@@ -32,7 +34,6 @@ button.Button.Button--primary.IndexPage-newDiscussion.hasIcon{border-radius:0}
 .IndexPage{padding-left:200px}
 .Hero .container{padding:10px}
 .RemoveAnnounce::after{content:"";display:none}
-.UserPage .darkenBackground{margin-left:-10px}
 .App-composer{padding-right:5%}
 header.Hero.DiscussionHero.DiscussionHero--colored{padding:20px}
 .DiscussionPage-discussion .container{max-width:1100px}
@@ -44,7 +45,6 @@ article.EventPost{padding-left:60px;padding-bottom:0}
 .DiscussionPage-list .DiscussionListItem-count{display:none}
 .DiscussionPage-list .DiscussionListItem-main{display:flex;flex-wrap:wrap;align-content:flex-start;flex-direction:column;justify-content:center}
 .DiscussionPage-list .DiscussionListItem-content{padding-right:0}
-article.CommentPost.Post--edited.Post.Post--by-actor .badges>li{display:flex;justify-content:flex-end;right:40px;top:-1px;position:relative}
 .PostUser-badges .Badge{margin-left:auto}
 .DiscussionPage-list .item-discussion-views{display:none!important}
 .DiscussionListItem-content{padding-left:70px}
@@ -99,5 +99,6 @@ span.PostUser-text{top:28px;right:0;position:absolute;color:@config-primary-colo
 .DiscussionListItem{border-bottom:1px solid fade(@hero-bg,98.5%)}
 .IndexPage .DiscussionListItem-info>.item-tags,.UserPage .DiscussionListItem-info>.item-tags{position:initial!important;-webkit-mask-image:none!important}
 .IndexPage .DiscussionListItem-info>.item-tags,.UserPage .DiscussionListItem-info>.item-tags{padding-right:3px!important}
-.item-discussion-views{right:37px;width:79px;width:29px}
+.item-discussion-views{right:37px;width:79px;width:60px}
 .topicStarter{padding:1px 4px 1px 5px!important;font-weight:600;float:right;position:inherit;margin-left:-35px!important;z-index:99;font-size:12px!important}
+.DiscussionListItem-count{margin-right: -38px;}
