@@ -1,5 +1,21 @@
-@media @desktop-up{
+@media(min-width:2200px)and (max-width:2560px){
+.sideNav{position:unset!important}
+.UserCard.Hero.UserHero{margin-left:unset!important}
+.Hero{padding-left:unset!important}
+.IndexPage{padding:unset!important;margin:0 10%;height:100%;border:1px solid fade(@hero-bg,98.5%)}
+.UserPage{border:1px solid fade(@hero-bg,98.5%)}
+.DiscussionPage{margin:0 auto;max-width:1600px}
+.App-content{border:unset}
+.App-composer{padding:0 10%}
+.sideNav{min-height:calc(100vh)}
+.IndexPage .affix .App-header{margin:0 auto;max-width:1600px}
+.IndexPage .scrolled .App-header{box-shadow:unset}
+.AfruxWidgets-sideNavAlt{margin-left:unset!important}
+}
+@media @desktop-up and (max-width:2560px){
+html{max-width:2000px;margin:0 auto}
 .Hero-close{display:none}
+.DiscussionPage-list .DiscussionListItem-info{white-space:break-spaces}
 .sideNavOffset{margin-top:0!important;min-width:0;padding:15px;box-sizing:border-box}
 body{font-family:"PingFang SC","Hiragino Sans GB","Microsoft Yahei",tahoma,arial}
 span.TagLabel-text i{display:none}
@@ -99,7 +115,7 @@ ul.DiscussionListItem-badges.badges{display:inline-flex!important}
 .DiscussionPage-list .DiscussionListItem-title{max-width:300px;word-wrap:break-word}
 .DiscussionPage-list{overflow-x:hidden}
 .TagTile.colored .TagTile-lastPostedDiscussion {max-width: 220px}
-.AfruxWidgets-sideNavAlt{width:auto!important;margin-left:unset;padding-top:15px!important;padding-right:5px;padding-left:5px;position:sticky!important;top:50px;height:100%;min-height:calc(100vh);background:@body-bg;border-left:1px solid fade(@hero-bg,98.5%)}
+.AfruxWidgets-sideNavAlt{margin-left:unset!important;padding-top:15px!important;padding-right:5px;padding-left:5px;position:sticky!important;top:50px;height:100%;min-height:calc(100vh);background:@body-bg;border-left:1px solid fade(@hero-bg,98.5%)}
 .App{overflow-x:visible}
 .IndexPage li.item-startTopWidgetSection{margin-bottom:0!important}
 .Alert.Alert--undefined{padding-left:220px}
