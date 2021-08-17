@@ -6,6 +6,12 @@
   ],
   "type": "flarum-extension",
   "license": "MIT",
+  "homepage": "https://flarum.pro",
+  "support": {
+     "issues": "https://github.com/yannisme/flarum-confix-theme/issues",
+     "source": "https://github.com/yannisme/flarum-confix-theme",
+     "forum": "https://discuss.flarum.org/d/27987-confix-theme"
+  },
   "require": {
     "flarum/core": "*"
   },
@@ -30,9 +36,6 @@
         "backgroundColor": "#F783AC",
         "color": "#FFF"
       }
-    },
-    "flagrow": {
-      "discuss": "https://discuss.flarum.org.cn/d/2648"
     }
   }
 }
