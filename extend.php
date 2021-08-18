@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of yannis/confixtheme.
+ * This file is part of yannisme/confixtheme.
  *
  * Copyright (c) 2021 yannis.
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Yannis\ConfixTheme;
+namespace Yannisme\ConfixTheme;
 
 use Flarum\Extend;
 
