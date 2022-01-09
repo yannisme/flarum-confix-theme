@@ -33,11 +33,13 @@ php flarum cache:clear
 - [Packagist](https://packagist.org/packages/yannisme/confixtheme)
 - [Discuss](https://discuss.flarum.org/d/27987-confix-theme)
   
-![image.png](https://i.loli.net/2021/07/14/u9dBvxfASWk2DIV.png)
-![image.png](https://i.loli.net/2021/07/14/HTkmMx9pd1iDcWj.png)
-![image.png](https://i.loli.net/2021/07/14/OpHlGMuvmVUebBo.png)
-![image.png](https://i.loli.net/2021/07/14/7fisbgOleDKQhnz.png)
-![image.png](https://i.loli.net/2021/07/14/WH2FjzCcnGkwP3t.png)
-![image.png](https://i.loli.net/2021/07/14/I3kcMEgdhs5Y89V.png)
+![image.png](https://s2.loli.net/2022/01/09/GDClX5utFqB9Uv1.png)
+![image.png](https://s2.loli.net/2022/01/09/5LJQcB9wpDZbukV.png)
+![image.png](https://s2.loli.net/2022/01/09/Jcwm78sMGPrpBd1.png)
+![image.png](https://s2.loli.net/2022/01/09/WIsl1CkGwDNnKyd.png)
+![image.png](https://s2.loli.net/2022/01/09/1qUhLtnSWRA69eM.png)
+![image.png](https://s2.loli.net/2022/01/09/oLpmB1KHMgGTDuS.png)
+![image.png](https://s2.loli.net/2022/01/09/VS5y6WRHTZzJwOP.png)
+![image.png](https://s2.loli.net/2022/01/09/rny3Vqjb8aU97HL.png)
 
 
