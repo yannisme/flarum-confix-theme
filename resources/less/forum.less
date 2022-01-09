@@ -24,139 +24,168 @@ table.catchthefish-table a{color:#fff}
 .IndexPage .scrolled .App-header{box-shadow:unset}
 .AfruxWidgets-sideNavAlt{margin-left:unset!important}
 }
-@media @desktop-up and (max-width:2560px){
-html{max-width:2000px;margin:0 auto}
-.feed-container{margin-top:unset!important;display:flex;width:auto!important;border-radius:unset!important;background:unset!important;box-shadow:unset!important;padding:10px!important;border-bottom:1px solid fade(@hero-bg,98.5%)}
-a.titleFeed{text-transform:capitalize;font-weight:700}
-.Hero-close{display:none}
-.EventPost-icon{text-align:end;margin-left:-75px;width:65px;margin-top:5px;font-size:15px}
-.PostStream-timeGap{padding:20px}
-.DiscussionPage-list .DiscussionListItem-info{white-space:break-spaces}
-.panePinned .DiscussionPage-list .TagLabel-text,.paneShowing .DiscussionPage-list .TagLabel-text{margin-left:-3px!important}
-.sideNavOffset{margin-top:0!important;min-width:0;padding:15px;box-sizing:border-box}
-body{font-family:"PingFang SC","Hiragino Sans GB","Microsoft Yahei",tahoma,arial}
-span.TagLabel-text i{display:none}
-.TagLabel{font-size:85%;font-weight:600;display:inline-block;padding:0 4px!important;color:#45556e;margin-right:5px;border-radius:4px!important}
-.DiscussionListItem{padding-left:unset}
-.container{width:auto;padding:0}
-.container{width:auto}
+@media @tablet-up and (max-width:2560px){
+article.EventPost{padding-left:60px}
+span.TagLabel-text i{display:none}	
+ul.UserCard-badges.badges{display:inline-table}
+.PostUser-avatar{vertical-align:middle;position:relative;left:-7px;top:-2px;width:2.5em;height:2.5em;font-size:1em;line-height:2.5em}
+.PostUser-badges{float:right;position:relative;display:block!important}	
+.Post{padding-left:40px}
+.Post-footer .item-bestAnswerPost{padding:10px!important;border-left:5px solid @control-bg!important;background-color:@body-bg!important;clear:both;border-radius:0!important}
+.Post--BestAnswer,.Post--BestAnswer a{color:unset!important}
+.Post--BestAnswer{
+	z-index:999;background:@control-bg!important;padding-left:4px!important;border-left:3px solid #58a400!important;border-radius:0!important;
+	.BestAnswer--User{display:none!important}
+}
+.Hero{text-align:left}
 .Badge{width:auto;height:auto;color:unset;-webkit-box-shadow:unset;box-shadow:unset}
+.DiscussionPage .badges,.badges>li{display: inline-flex}	
 .DiscussionListItem-badges .Badge{margin:1px;position:relative;top:41px;left:-3px}
+.DiscussionListItem-badges .Badge,header.Hero.DiscussionHero .Badge,header.Post-header .Badge,.Form-group.EditUserModal-groups .Badge{background:0 0!important}
+.DiscussionHero-items{padding-left: 10px;}
+.DiscussionPage .badges,.badges>li{padding:2px}
+.PostUser-badges .Badge{margin-left:auto}
+.UserCard-profile .Badge{background:unset!important}
 .badges,.badges>li{display:flex;justify-content:center}
 .Badge--sticky{background:0 0}
-.DiscussionListItem-badges .Badge,header.Hero.DiscussionHero .Badge,header.Post-header .Badge,.Form-group.EditUserModal-groups .Badge{background:0 0!important}
-.DiscussionPage .badges,.badges>li{display: inline-flex}
-.UserCard.Hero.UserHero{margin-left:-10px}
-.UserCard-profile .Badge{background:unset!important}
-.UserCard-info>.social-button{margin-right:5px}
-.DiscussionListItem-main{min-height:75px;display:inline-grid}
-.sideNav{flex-shrink:0;margin-right:auto}
-.sideNav .Dropdown--select .Dropdown-menu{margin-left:-10px;width:auto}
-.sideNav .Dropdown--select .Dropdown-menu>li.active>a{font-weight:700;background:@hero-bg;color:@link-color;border-right:3px solid @config-primary-color}
-.sideNav .Dropdown--select .Dropdown-menu>li>a{padding:8px 0 8px 40px}
-a.TagLinkButton.hasIcon.child{background:0 0!important;border:0!important}
-button.Button.Button--primary.IndexPage-newDiscussion.hasIcon{font-size:1.2em}
-.sideNav{flex-shrink:0;margin-right:auto;position:fixed;z-index:2;left:0;top:52px;overflow:auto;width:auto;height:100%;padding-left:10px;background:@body-bg;border-right:1px solid fade(@hero-bg,98.5%)}
-button.Button.Button--primary.IndexPage-newDiscussion.hasIcon{border-radius:0}
-.IndexPage-nav .item-newDiscussion{margin-bottom:5px;margin-left:-10px}
-.IndexPage-nav .item-newDiscussion .Button{height:61px}
-.sideNav>ul{margin-top:0;padding-bottom: 80px}
-.sideNav::-webkit-scrollbar{width:0}
-.sideNav .Dropdown--select .Dropdown-menu>li>a{padding:8px 0 8px 50px}
-.IndexPage-toolbar{display:flex}
-.containerNarrow{max-width:none}
-.Hero{padding-left:10px;text-align:left}
-.UserPage{margin-left:200px}
-.IndexPage{padding-left:200px}
+.container{width:auto;padding: 0 10px;}
+.containerNarrow{max-width:none!important;}
+.EventPost-icon{text-align:end;margin-left:-75px;width:65px;margin-top:5px;font-size:15px}
 .Hero .container{padding:10px}
-.RemoveAnnounce::after{content:"";display:none}
-.App-composer{padding-right:5%}
+.PostStream-timeGap{padding:20px}
+.fa-thumbtack:before{color:#de8e00}
+.TagCloud{margin-top:10px!important}
+.TagTiles{padding:10px 0!important}
+}
+@media @desktop-up and (max-width:2560px){
+html{max-width:2000px;margin:0 auto}
+body{font-family:"PingFang SC","Hiragino Sans GB","Microsoft Yahei",tahoma,arial}
+a.titleFeed{text-transform:capitalize;font-weight:700}
+a.TagLinkButton.hasIcon.child{background:0 0!important;border:0!important}
+a.TagTile-info{display:flex;flex-wrap:wrap}
+ul.DiscussionListItem-badges.badges{display:inline-flex!important}
+span.NotificationsDropdown-unread{z-index:999}
+span.PostUser-text{top:28px;right:0;position:absolute;color:@config-primary-color;font-size:12px;font-weight:700;z-index:9}
+li.TagTile{margin-top:5px;border-radius:4px}
+button.Button.Button--primary.IndexPage-newDiscussion.hasIcon{border-radius:0;font-size:1.2em}
 header.Hero.DiscussionHero.DiscussionHero--colored{padding:20px}
-.DiscussionPage-discussion .container{max-width:1100px}
-.DiscussionPage .badges,.badges>li{padding:2px}
-.PostUser-avatar{vertical-align:middle;position:relative;left:-7px;top:-2px;width:2.5em;height:2.5em;font-size:1em;line-height:2.5em}
-.Post{padding-left:40px}
-.PostUser-badges{float:right;position:relative;display:block!important}
-article.EventPost{padding-left:60px}
-.DiscussionListItem-content.Slidable-content.read .badges{display:flex}
-.DiscussionPage-list .DiscussionListItem-count{display:none}
-.DiscussionPage-list .DiscussionListItem-main{display:flex;flex-wrap:wrap;align-content:flex-start;flex-direction:column;justify-content:center}
-.DiscussionPage-list .DiscussionListItem-content{padding-right:0}
-.PostUser-badges .Badge{margin-left:auto}
-.DiscussionPage-list .item-discussion-views{display:none!important}
-.DiscussionListItem-content{padding-left:70px}
-.unread .DiscussionListItem-title:after{content:"New";color:#f8504b;font-size:smaller;margin-left:4px;position:relative}
 footer.site-footer{padding-left:210px}
-.App--discussion .Composer:not(.fullScreen){margin-left:220px}
 nav.TagsPage-nav.IndexPage-nav.sideNav{display:none}
-.TagsPage .sideNavOffset{display:contents}
-ul.UserCard-badges.badges{display:inline-table}
+i.icon.fas.fa-times{display:inline-block}
+.IndexPage{
+	padding-left:200px;
+	li.item-startTopWidgetSection{margin-bottom:0!important}
+}
+.IndexPage-toolbar{display:flex}
+.IndexPage-nav {
+	.item-newDiscussion{
+		margin-bottom:5px;margin-left:-10px;
+		.Button{height:61px}
+	}
+}
 .IndexPage-results.sideNavOffset .DiscussionList.DiscussionList--searchResults li.item-discussion-views{display:none}
-.DiscussionList:not(.DiscussionList--searchResults) .unread .DiscussionListItem-title{font-weight:500}
-.NotificationsDropdown-unread,.new .NotificationsDropdown-unread{background:@muted-color!important}
-.Post--BestAnswer{z-index:999}
+.container{width:auto;padding:0}
+.Hero{padding-left:10px;}
+.Hero-close{display:none}
+.UserPage{margin-left:200px}
+.UserCard.Hero.UserHero{margin-left:-10px}
+.UserCard-info>.social-button{margin-right:5px}
+.DiscussionListItem{padding-left:unset}
+.DiscussionListItem-main{min-height:75px;display:inline-grid}
+.DiscussionListItem-content{
+	padding-left:70px;
+	.Slidable-content.read .badges{display:flex}
+}
+.DiscussionPage-list .DiscussionListItem-info{white-space:break-spaces}
+.DiscussionPage-list {
+	overflow-x:hidden;
+	.DiscussionListItem-title{max-width:300px;word-wrap:break-word}
+	.DiscussionListItem-count{display:none}
+	.DiscussionListItem-main{display:flex;flex-wrap:wrap;align-content:flex-start;flex-direction:column;justify-content:center}
+	.DiscussionListItem-content{padding-right:0}
+	.item-discussion-views{display:none!important}
+}
+.DiscussionPage-discussion .container{max-width:1100px}
+.panePinned .DiscussionPage-list .TagLabel-text,.paneShowing .DiscussionPage-list .TagLabel-text{margin-left:-3px!important}
+.sideNavOffset{margin-top:0!important;min-width:0;padding:15px;box-sizing:border-box}
+.TagsPage .sideNavOffset{display:contents}
+.TagLabel{font-size:85%;font-weight:600;display:inline-block;padding:0 4px!important;color:#45556e;margin-right:5px;border-radius:4px!important}
+.feed-container{margin-top:unset!important;display:flex;width:auto!important;border-radius:unset!important;background:unset!important;box-shadow:unset!important;padding:10px!important;border-bottom:1px solid fade(@hero-bg,98.5%)}
+.sideNav{
+	flex-shrink:0;margin-right:auto;position:fixed;z-index:2;left:0;top:22px;overflow:auto;width:auto;height:100%;padding-left:10px;padding-bottom:30px;background:@body-bg;border-right:1px solid fade(@hero-bg,98.5%);flex-shrink:0;margin-right:auto;
+	.Dropdown--select .Dropdown-menu{
+		margin-left:-10px;width:auto;
+		>li{
+			>a{padding:8px 0 8px 40px}
+			.active>a{font-weight:700;background:@hero-bg;color:@link-color;border-right:3px solid @config-primary-color}
+	}
+	>ul{margin-top:0;padding-bottom:80px}
+}
+}
+.aaalert.aaquote .aainner{background:fade(@control-bg,50%)!important}
+.App{overflow-x:visible}
+.App-composer{padding-right:5%}
+.App--discussion .Composer:not(.fullScreen){margin-left:220px}
+.Alert.Alert--undefined{padding-left:220px}
+.AfruxWidgets-sideNavAlt{margin-left:unset!important;padding-top:15px!important;padding-right:5px;padding-left:5px;position:sticky!important;top:50px;height:100%;min-height:calc(100vh);background:@body-bg;border-left:1px solid fade(@hero-bg,98.5%)}
+.AchievementsList .Achievement--Icon{background:unset;display:unset!important;width:22px;height:22px}
+.BlogItemPage .App-composer .Composer{margin:0 0 0 220px!important}
+.BlogSideWidget{
+	.sideNav{
+		position:inherit;
+		li{padding:1px 30px 1px 0!important}
+	}
+}
 .SettingsPage legend{float:unset}
 .UserPage .SettingsPage .Button--primary.active,.UserPage .SettingsPage .Button--primary:active,.UserPage .SettingsPage .Button:focus,.UserPage .SettingsPage .Button:hover,.UserPage .SettingsPage .open>.Dropdown-toggle.Button,.UserPage .SettingsPage .open>.Dropdown-toggle.Button--primary{background:@config-primary-color!important}
-.aaalert.aaquote .aainner{background:fade(@control-bg,50%)!important}
-span.NotificationsDropdown-unread{z-index:999}
-.FT1{padding-left:220px;padding-top:10px;margin:10px auto;border-top:1px solid fade(@hero-bg,98.5%)}
-.TagTiles{display:grid;grid-template-columns:repeat(3,33.33333%);}
-.TagTiles>li{float:unset;width:auto!important;height:auto!important;margin:1em 1em;min-height:102px;max-height:200px;}
-.Post-footer .item-bestAnswerPost{padding:10px!important;border-left:5px solid @control-bg!important;background-color:@body-bg!important;clear:both;border-radius:0!important}
-.Post--BestAnswer{background:@control-bg!important;padding-left:4px!important;border-left:3px solid #58a400!important;border-radius:0!important}
-.Post--BestAnswer,.Post--BestAnswer a{color:unset!important}
-.Post--BestAnswer .BestAnswer--User{display:none!important}
-.Post-body pre{border-left:3px solid @control-bg;border-radius:0}
-.Post-body blockquote{border-left:3px solid @config-primary-color!important;border:0;border-radius:0}
+.UserCard-Achievement-list{display:none}
+.PostUser-level{float:right!important;position:relative;margin-left:0;margin-top:0!important;width:55px;text-align:right}
+.PostUser-bar{border-radius:unset!important;height:5px!important;position:absolute}
+.DiscussionList:not(.DiscussionList--searchResults) .unread .DiscussionListItem-title{font-weight:500}
+.DiscussionList-loadMore{margin-left:-200px}
+.NotificationsDropdown-unread,.new .NotificationsDropdown-unread{background:@muted-color!important}
+.unread .DiscussionListItem-title:after{content:"New";color:#f8504b;font-size:smaller;margin-left:4px;position:relative}
+.Modal--New-Achievement .Achievement--Icon{width:22px;color:@body-bg}
+.GroupList-content .GroupList-UserList-item .badges{top:-10px}
+.RemoveAnnounce::after{content:"";display:none}
+.TagTiles{
+	display:grid;grid-template-columns:repeat(3,33.33333%);
+	>li{float:unset;width:auto!important;height:auto!important;margin:1em 1em;min-height:102px;max-height:200px;}
+}
 .TagTile-description,.TagTile-name{width:-webkit-fill-available;width:100%}
 .TagTile-info .icon{font-size:168px!important;right:-65px;top:-55px;position:absolute;opacity:.2;font-weight:700}
 .TagTile-info,.TagTile-lastPostedDiscussion{position:unset!important}
-li.TagTile{margin-top:5px;border-radius:4px}
-a.TagTile-info{display:flex;flex-wrap:wrap}
-.PostUser-level{float:right!important;position:relative;margin-left:0;margin-top:0!important;width:55px;text-align:right}
-span.PostUser-text{top:28px;right:0;position:absolute;color:@config-primary-color;font-size:12px;font-weight:700;z-index:9}
-.PostUser-bar{border-radius:unset!important;height:5px!important;position:absolute}
-.AchievementsList .Achievement--Icon{background:unset}
-.AchievementsList .Achievement--Icon{display:unset!important;width:22px;height:22px}
-.Modal--New-Achievement .Achievement--Icon{width:22px;color:@body-bg}
-.DiscussionList-loadMore{margin-left:-200px}
-.FlarumBlogItem{padding:30px 75px!important}
-.BlogItemPage .App-composer .Composer{margin:0 0 0 220px!important}
-.BlogSideWidget .sideNav{position:inherit}
-.BlogSideWidget .sideNav li{padding:1px 30px 1px 0!important}
-.FlarumBlogOverview{padding: 30px 75px!important}
-.GroupList-content .GroupList-UserList-item .badges{top:-10px}
-.UserCard-Achievement-list{display:none}
-ul.DiscussionListItem-badges.badges{display:inline-flex!important}
-.DiscussionPage-list .DiscussionListItem-title{max-width:300px;word-wrap:break-word}
-.DiscussionPage-list{overflow-x:hidden}
 .TagTile.colored .TagTile-lastPostedDiscussion {max-width: 220px}
-.AfruxWidgets-sideNavAlt{margin-left:unset!important;padding-top:15px!important;padding-right:5px;padding-left:5px;position:sticky!important;top:50px;height:100%;min-height:calc(100vh);background:@body-bg;border-left:1px solid fade(@hero-bg,98.5%)}
-.App{overflow-x:visible}
-.IndexPage li.item-startTopWidgetSection{margin-bottom:0!important}
-.Alert.Alert--undefined{padding-left:220px}
-i.icon.fas.fa-times{display:inline-block}
-.fa-thumbtack:before{color:#de8e00}
+.FT1{padding-left:220px;padding-top:10px;margin:10px auto;border-top:1px solid fade(@hero-bg,98.5%)}
+.FlarumBlogItem{padding:30px 75px!important}
+.FlarumBlogOverview{padding: 30px 75px!important}
 }
 @media @screen-phone-max{
 .DiscussionListItem-content{padding-left:20px;padding-right:20px}
-.IndexPage .DiscussionListItem-info>.item-tags{margin-top:unset}
-.IndexPage .DiscussionListItem-title{margin-right:auto}
 .DiscussionListItem-count,.item-discussion-views{background:@header-control-bg!important}
+.IndexPage{
+	.DiscussionListItem-info>.item-tags{margin-top:unset}
+	.DiscussionListItem-title{margin-right:auto}
+}
 }
 @media @phone{
 .item-discussion-views{display:none!important} 
 }
-.DiscussionListItem{border-bottom:1px solid fade(@hero-bg,98.5%)}
-.IndexPage .DiscussionListItem-info>.item-tags,.UserPage .DiscussionListItem-info>.item-tags{position:initial!important;-webkit-mask-image:none!important}
-.IndexPage .DiscussionListItem-info>.item-tags,.UserPage .DiscussionListItem-info>.item-tags{padding-right:3px!important}
-.item-discussion-views{right:37px;width:79px;width:60px}
-.topicStarter{padding:1px 4px 1px 5px!important;font-weight:600;float:right;position:inherit;margin-left:-35px!important;z-index:99;font-size:12px!important}
-.DiscussionListItem-count{margin-right:-38px;}
-.Badge{-webkit-box-shadow:unset;box-shadow:unset}
-.Post .Achievement--Icon{background:unset;color: unset;}
-.GroupList-content .Badge{width:22px;height:22px;color:#fff;box-shadow: 0 2px 4px fade(#000,35%)}
-.Alert{border-radius:unset}
-.catchthefish-basket{background:@body-bg!important;border:2px solid fade(@config-primary-color,5%)!important}
-.SignatureWrapper{clear:both;border-top:1px dashed @hero-bg!important;color:@control-color;padding:5px 0!important;margin-top:10px}
 li.licss {max-width:20%;overflow:hidden}
+.Alert{border-radius:unset}
+.AfruxWidgets-Widget-content{width:auto!important;margin-left:unset!important}
+.Badge{-webkit-box-shadow:unset;box-shadow:unset}
+.catchthefish-basket{background:@body-bg!important;border:2px solid fade(@config-primary-color,5%)!important}
+.DiscussionListItem{border-bottom:1px solid fade(@hero-bg,98.5%)}
+.DiscussionListItem-count{margin-right:-38px;}
+.GroupList-content .Badge{width:22px;height:22px;color:#fff;box-shadow: 0 2px 4px fade(#000,35%)}
+.IndexPage .DiscussionListItem-info>.item-tags,.UserPage .DiscussionListItem-info>.item-tags{padding-right:3px!important;position:initial!important;-webkit-mask-image:none!important}
+.item-discussion-views{right:37px;width:79px;width:60px}
+.Post-body{
+pre{border-left:3px solid @control-bg;border-radius:0}
+blockquote{border-left:3px solid @config-primary-color!important;border:0;border-radius:0}
+}
+.SignatureWrapper{clear:both;border-top:1px dashed @hero-bg!important;color:@control-color;padding:5px 0!important;margin-top:10px}
+.topicStarter{padding:1px 4px 1px 5px!important;font-weight:600;float:right;position:inherit;margin-left:-35px!important;z-index:99;font-size:12px!important}
+.sideNav::-webkit-scrollbar{width:2px;height:7px;background-color:fade(@secondary-color,30%)}
+.sideNav::-webkit-scrollbar-thumb{background-color:@primary-color;background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent)}
