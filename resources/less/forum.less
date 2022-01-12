@@ -27,10 +27,13 @@ table.catchthefish-table a{color:#fff}
 @media @tablet-up and (max-width:2560px){
 article.EventPost{padding-left:60px}
 span.TagLabel-text i{display:none}	
+span.PostUser-text{top:28px;right:0;position:absolute;color:@config-primary-color;font-size:12px;font-weight:700;z-index:9}
 ul.UserCard-badges.badges{display:inline-table}
 .PostUser-avatar{vertical-align:middle;position:relative;left:-7px;top:-2px;width:2.5em;height:2.5em;font-size:1em;line-height:2.5em}
 .PostUser-badges{float:right;position:relative;display:block!important}	
 .Post{padding-left:40px}
+.PostUser-level{float:right!important;position:relative;margin-left:0;margin-top:0!important;width:55px;text-align:right}
+.PostUser-bar{border-radius:unset!important;height:5px!important;position:absolute}
 .Post-footer .item-bestAnswerPost{padding:10px!important;border-left:5px solid @control-bg!important;background-color:@body-bg!important;clear:both;border-radius:0!important}
 .Post--BestAnswer,.Post--BestAnswer a{color:unset!important}
 .Post--BestAnswer{
@@ -65,7 +68,6 @@ a.TagLinkButton.hasIcon.child{background:0 0!important;border:0!important}
 a.TagTile-info{display:flex;flex-wrap:wrap}
 ul.DiscussionListItem-badges.badges{display:inline-flex!important}
 span.NotificationsDropdown-unread{z-index:999}
-span.PostUser-text{top:28px;right:0;position:absolute;color:@config-primary-color;font-size:12px;font-weight:700;z-index:9}
 li.TagTile{margin-top:5px;border-radius:4px}
 button.Button.Button--primary.IndexPage-newDiscussion.hasIcon{border-radius:0;font-size:1.2em}
 header.Hero.DiscussionHero.DiscussionHero--colored{padding:20px}
@@ -140,8 +142,6 @@ i.icon.fas.fa-times{display:inline-block}
 .SettingsPage legend{float:unset}
 .UserPage .SettingsPage .Button--primary.active,.UserPage .SettingsPage .Button--primary:active,.UserPage .SettingsPage .Button:focus,.UserPage .SettingsPage .Button:hover,.UserPage .SettingsPage .open>.Dropdown-toggle.Button,.UserPage .SettingsPage .open>.Dropdown-toggle.Button--primary{background:@config-primary-color!important}
 .UserCard-Achievement-list{display:none}
-.PostUser-level{float:right!important;position:relative;margin-left:0;margin-top:0!important;width:55px;text-align:right}
-.PostUser-bar{border-radius:unset!important;height:5px!important;position:absolute}
 .DiscussionList:not(.DiscussionList--searchResults) .unread .DiscussionListItem-title{font-weight:500}
 .DiscussionList-loadMore{margin-left:-200px}
 .NotificationsDropdown-unread,.new .NotificationsDropdown-unread{background:@muted-color!important}
