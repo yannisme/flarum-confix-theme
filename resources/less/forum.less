@@ -29,6 +29,7 @@ article.EventPost{padding-left:60px}
 span.TagLabel-text i{display:none}	
 span.PostUser-text{top:28px;right:0;position:absolute;color:@config-primary-color;font-size:12px;font-weight:700;z-index:9}
 ul.UserCard-badges.badges{display:inline-table}
+.AfruxWidgets-Widget-title{margin:5px;font-weight:700}
 .PostUser-avatar{vertical-align:middle;position:relative;left:-7px;top:-2px;width:2.5em;height:2.5em;font-size:1em;line-height:2.5em}
 .PostUser-badges{float:right;position:relative;display:block!important}	
 .Post{padding-left:40px}
@@ -59,6 +60,8 @@ ul.UserCard-badges.badges{display:inline-table}
 .fa-thumbtack:before{color:#de8e00}
 .TagCloud{margin-top:10px!important}
 .TagTiles{padding:10px 0!important}
+.AfruxWidgets-Widget-content{border-radius:unset!important}
+.AfruxWidgets-Widget:not(:last-child){margin-bottom:8px}
 }
 @media @desktop-up and (max-width:2560px){
 html{max-width:2000px;margin:0 auto}
@@ -75,8 +78,9 @@ footer.site-footer{padding-left:210px}
 nav.TagsPage-nav.IndexPage-nav.sideNav{display:none}
 i.icon.fas.fa-times{display:inline-block}
 .IndexPage{
-	padding-left:200px;
+	padding-left:190px;
 	li.item-startTopWidgetSection{margin-bottom:0!important}
+	
 }
 .IndexPage-toolbar{display:flex}
 .IndexPage-nav {
@@ -90,7 +94,7 @@ i.icon.fas.fa-times{display:inline-block}
 .Hero{padding-left:10px;}
 .Hero-close{display:none}
 .UserPage{margin-left:200px}
-.UserCard.Hero.UserHero{margin-left:-10px}
+.UserCard.Hero.UserHero{margin-left:-20px}
 .UserCard-info>.social-button{margin-right:5px}
 .DiscussionListItem{padding-left:unset}
 .DiscussionListItem-main{min-height:75px;display:inline-grid}
@@ -113,17 +117,19 @@ i.icon.fas.fa-times{display:inline-block}
 .TagsPage .sideNavOffset{display:contents}
 .TagLabel{font-size:85%;font-weight:600;display:inline-block;padding:0 4px!important;color:#45556e;margin-right:5px;border-radius:4px!important}
 .feed-container{margin-top:unset!important;display:flex;width:auto!important;border-radius:unset!important;background:unset!important;box-shadow:unset!important;padding:10px!important;border-bottom:1px solid fade(@hero-bg,98.5%)}
-.sideNav{
-	flex-shrink:0;margin-right:auto;position:fixed;z-index:2;left:0;top:22px;overflow:auto;width:auto;height:100%;padding-left:10px;padding-bottom:30px;background:@body-bg;border-right:1px solid fade(@hero-bg,98.5%);flex-shrink:0;margin-right:auto;
-	.Dropdown--select .Dropdown-menu{
-		margin-left:-10px;width:auto;
-		>li.active>a{font-weight:700;background:@hero-bg;color:@link-color}
-		>li{
-			>a{padding:8px 0 8px 40px}
-			
+.sideNav{							
+    flex-shrink:0;margin-right:auto;position:fixed;z-index:2;left:0;top:50px;overflow:auto;width:auto;height:100%;padding-bottom:30px;background:@body-bg;border-right:1px solid fade(@hero-bg,98.5%);flex-shrink:0;margin-right:auto;
+	.Dropdown--select {
+		padding-left: 10px;
+		.Dropdown-menu{
+			margin-left:-10px;width:auto;
+			>li.active>a{font-weight:700;background:@hero-bg;color:@link-color}
+			>li{
+				>a{padding:8px 0 8px 40px}
+			}
+		}
 	}
 	>ul{margin-top:0;padding-bottom:80px}
-}
 }
 .aaalert.aaquote .aainner{background:fade(@control-bg,50%)!important}
 .App{overflow-x:visible}
@@ -190,3 +196,5 @@ blockquote{border-left:3px solid @config-primary-color!important;border:0;border
 .topicStarter{padding:1px 4px 1px 5px!important;font-weight:600;float:right;position:inherit;margin-left:-35px!important;z-index:99;font-size:12px!important}
 .sideNav::-webkit-scrollbar{width:2px;height:7px;background-color:fade(@secondary-color,30%)}
 .sideNav::-webkit-scrollbar-thumb{background-color:@primary-color;background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.2) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.2) 50%,rgba(255,255,255,.2) 75%,transparent 75%,transparent)}
+.avatarwb .Avatar,.backgrwb {box-shadow: unset!important;}
+.iconbadge>li>*{background:unset!important;color:unset!important}
