@@ -77,10 +77,15 @@ header.Hero.DiscussionHero.DiscussionHero--colored{padding:20px}
 footer.site-footer{padding-left:210px}
 nav.TagsPage-nav.IndexPage-nav.sideNav{display:none}
 i.icon.fas.fa-times{display:inline-block}
+span.Avatar.lastPostedUserAvatar,img.Avatar.lastPostedUserAvatar {
+    width: 15px!important;
+    height: 15px!important;
+    box-shadow:unset!important;
+}
 .IndexPage{
 	padding-left:190px;
 	li.item-startTopWidgetSection{margin-bottom:0!important}
-	
+	span.Avatar.lastPostedUserAvatar,img.Avatar.lastPostedUserAvatar{top:14px;left:68px;}
 }
 .IndexPage-toolbar{display:flex}
 .IndexPage-nav {
@@ -110,6 +115,7 @@ i.icon.fas.fa-times{display:inline-block}
 	.DiscussionListItem-main{display:flex;flex-wrap:wrap;align-content:flex-start;flex-direction:column;justify-content:center}
 	.DiscussionListItem-content{padding-right:0}
 	.item-discussion-views{display:none!important}
+	span.Avatar.lastPostedUserAvatar,img.Avatar.lastPostedUserAvatar {top:19px;left:66px;}
 }
 .DiscussionPage-discussion .container{max-width:1100px}
 .panePinned .DiscussionPage-list .TagLabel-text,.paneShowing .DiscussionPage-list .TagLabel-text{margin-left:-3px!important}
@@ -188,7 +194,7 @@ li.licss {max-width:20%;overflow:hidden}
 .Badge{-webkit-box-shadow:unset;box-shadow:unset}
 .catchthefish-basket{background:@body-bg!important;border:2px solid fade(@config-primary-color,5%)!important}
 .DiscussionListItem{border-bottom:1px solid fade(@hero-bg,98.5%)}
-.DiscussionListItem-count{margin-right:-38px;}
+/*.DiscussionListItem-count{margin-right:-38px;}*/
 .GroupList-content .Badge{width:22px;height:22px;color:#fff;box-shadow: 0 2px 4px fade(#000,35%)}
 .IndexPage .DiscussionListItem-info>.item-tags,.UserPage .DiscussionListItem-info>.item-tags{padding-right:3px!important;position:initial!important;-webkit-mask-image:none!important}
 .item-discussion-views{right:37px;width:79px;width:60px}
